@@ -1,0 +1,5 @@
+alias cpc='cppcheck --enable=all --suppress=missingIncludeSystem'
+alias valg='valgrind --tool=memcheck --leak-check=yes ./a.out'
+alias compile='gcc -Wall -Werror -Wextra -std=c11'
+alias moveclang='cp materials/linters/.clang-format ./src'
+alias dev='git checkout -b develop'
