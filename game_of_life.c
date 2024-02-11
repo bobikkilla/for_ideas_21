@@ -78,7 +78,7 @@ void game(int w, int h) {
             }
         }
         if (ch == 's') {
-            if (speed > 1500) {
+            if (speed < 1500) {
                 speed = speed + 50;
             }
         }
